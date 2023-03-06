@@ -550,7 +550,7 @@ Każdy Mag daje armii dodatkową modlitwę w cyklu.</description>
         </profile>
       </profiles>
       <costs>
-        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="6.0"/>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="9.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a9c4-c4c8-80cc-ce6d" name="Ostrze Pogardy" hidden="false" collective="false" import="true" type="upgrade">
