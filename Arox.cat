@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="4" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="18a4-315e-9b1d-bd2a" name="Arox" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -487,7 +487,7 @@
         <categoryLink id="0442-6c04-c84d-25be" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d2e3-a718-06f7-c659" name="Magia" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d2e3-a718-06f7-c659" name="Magia" hidden="true" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="f85b-9abe-e3c6-3699" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8035-d3ec-3003-1087" type="max"/>
           </constraints>
@@ -500,6 +500,10 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <entryLinks>
+        <entryLink id="0b33-26bb-ad7d-f622" name="Czary (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="dc2f-dde6-bafe-9059" type="selectionEntryGroup"/>
+        <entryLink id="ec81-ce5d-9161-bfd4" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
+      </entryLinks>
       <costs>
         <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="14.0"/>
       </costs>
