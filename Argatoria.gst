@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="bed4-986d-3f21-8152" name="Argatoria" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="bed4-986d-3f21-8152" name="Argatoria" revision="1" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 Bugi:
 Mały mag – trzeba dodać &quot;magię&quot; żeby działało ograniczenie 6pkt, rozwiń &quot;Magia&quot; na liście żeby dodać przedmioty i czary.
-
-Brakujące armie:
-Sheol-Morg
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
   <publications>
@@ -924,6 +921,91 @@ w 30 cm</characteristic>
         <entryLink id="1d2e-7051-af3e-feac" name="Diadem Rozpaczy" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry">
           <categoryLinks>
             <categoryLink id="f2be-9ba7-62a9-0650" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="dc2f-dde6-bafe-9059" name="Czary (mag do 6 pkt)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13f5-75cf-16c7-cfb6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="103a-5f9c-2455-30c4" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="07b5-d3fe-80d0-93f4" name="Zamieć" hidden="false" collective="false" import="true" targetId="190b-3b4d-98ea-d965" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="69a7-adb6-539e-2eb4" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="03d3-113c-ac6c-3b4c" name="Zemsta" hidden="false" collective="false" import="true" targetId="8d72-1193-f5ae-9a36" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="be57-60d2-6769-0bac" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="7df9-6041-719a-c311" name="Podmuch Śmierci" hidden="false" collective="false" import="true" targetId="0e49-3d06-d610-36c4" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="5d17-a12a-0e51-b635" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="b1c6-4d35-f789-ae89" name="Zamroczenie" hidden="false" collective="false" import="true" targetId="d5bf-506a-7ee7-8b49" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="6436-abf5-de98-0b47" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="e07b-9154-5f51-b1ec" name="Groza" hidden="false" collective="false" import="true" targetId="47ea-13ca-009f-9450" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="192e-5232-c4ba-e474" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="80e4-b1f0-3b95-cdc0" name="Szepty Bogów" hidden="false" collective="false" import="true" targetId="082d-d4b1-0856-cc91" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="7114-57c2-33ea-02fc" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ff7a-f326-5a4e-c3cb" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f3-a65c-922b-9a1b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="beb9-53f0-a24b-0f4e" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="9888-7c01-66a2-43fa" name="Talizman z Ragloq" hidden="false" collective="false" import="true" targetId="b0f1-deba-1970-ee6c" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="7058-d6ca-cbb9-2b29" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="2ae1-66ba-33d6-26fa" name="Eliksir" hidden="false" collective="false" import="true" targetId="14db-68f2-f77b-5f4a" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="4f6e-64fd-2a15-8c23" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="89ec-f21f-1641-b925" name="Stary Pergamin" hidden="false" collective="false" import="true" targetId="2e16-24be-494f-559f" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="0fa3-91d0-83ea-9e9a" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3d02-ce34-ab61-35a9" name="Pierścień Mocy" hidden="false" collective="false" import="true" targetId="8bf1-0782-2f28-6ebd" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="0b7b-849b-1f58-27b3" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="0ccb-ab2f-c4ce-66ce" name="Dispel" hidden="false" collective="false" import="true" targetId="c1f6-4960-c04f-7df6" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="cfe1-5445-c012-ed23" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="3527-f5c1-f5e3-d763" name="Kostur" hidden="false" collective="false" import="true" targetId="049b-0974-02f7-3360" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="9b81-99e5-bea7-b03d" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
+          </categoryLinks>
+        </entryLink>
+        <entryLink id="297b-9a23-14e0-e2e9" name="Diadem Rozpaczy" hidden="false" collective="false" import="true" targetId="9c68-5ff6-a74d-2775" type="selectionEntry">
+          <categoryLinks>
+            <categoryLink id="dfd9-bb8e-d956-d911" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="false"/>
           </categoryLinks>
         </entryLink>
       </entryLinks>
