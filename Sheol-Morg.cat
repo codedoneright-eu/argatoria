@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="7" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -778,6 +778,18 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
       </costs>
     </selectionEntry>
     <selectionEntry id="0a9b-0250-04bd-3e83" name="Potępieńcy" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <profiles>
         <profile id="81da-fe65-aea6-cf84" name="Potępieńcy" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
           <characteristics>
@@ -795,6 +807,9 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
         <infoLink id="8468-3dea-33a7-05e4" name="Nieustraszony" hidden="false" targetId="907e-ec8a-ba87-c704" type="rule"/>
         <infoLink id="82b0-a96c-c553-2f7d" name="Kreatura" hidden="false" targetId="e31e-0765-1fa4-c61f" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedRules>
