@@ -13,6 +13,7 @@ __Co to jest?__
 
 Pliki do gry bitewnej Argatoria, pozwalające tworzyć rozpiskę armijną w programie BattleScribe.
 
+
 __Nie interesuje mnie projekt, chcę tylko pliki do BattleScribe'a__
 
 Żaden problem, wystarczy:
@@ -28,12 +29,14 @@ __Nie interesuje mnie projekt, chcę tylko pliki do BattleScribe'a__
 
 * Już możesz robić rozpiski
 
+
 __Na telefonie też działa?__
 * Tak, otwórz apkę i wejdź do 'Manage Data'
 * Kliknij w trzy kropki w prawym górnym rogu ekrany i wybierz "Add data index url"
 * Wklej tę ścieżkę - https://github.com/codedoneright-eu/argatoria/releases/latest/download/argatoria.latest.bsi
 
 * Generalnie działa dokładnie tak samo jak na komputerze, tylko w innym miejscu podajesz ścieżkę (taka sama dla PC i telefonu)
+
 
 __Znalazłem błąd / mam pomysł co zrobić lepiej__
 
