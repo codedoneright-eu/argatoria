@@ -42,11 +42,17 @@ __Znalazłem błąd / mam pomysł co zrobić lepiej__
 
 ## Linki ##
 
-* [Spellcrow][https://www.spellcrow.com/]
-* [Umbra Turris Chronicles][https://utchronicles.com/]
+* [Spellcrow][Spellcrow]
+* [Umbra Turris Chronicles][Umbra Turris Chronicles]
 * [Argatoria: Plemiona na FB][https://www.facebook.com/groups/argatoriaplemiona]
 * [BattleScribe][https://battlescribe.net/]
 * [BSData.net][https://www.bsdata.net/]
+
+[Spellcrow]: https://www.spellcrow.com/
+[Umbra Turris Chronicles]: https://utchronicles.com/
+[Argatoria: Plemiona na FB]: https://www.facebook.com/groups/argatoriaplemiona
+[BattleScribe]: https://battlescribe.net/
+[BSData.net]: https://www.bsdata.net/
 
 ## Informacje dodatkowe ##
 
