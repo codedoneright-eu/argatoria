@@ -1,9 +1,9 @@
 Argatoria Wargame 
 ==================
 
-[![Najnowsza wersja](https://img.shields.io/github/release/codedoneright-eu/Argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/releases/latest)
+[![Latest release](https://img.shields.io/github/release/codedoneright-eu/Argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/releases/latest)
 [![Commits (since latest release)](https://img.shields.io/github/commits-since/codedoneright-eu/Argatoria/latest.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/releases)
-[![Open bugs](https://img.shields.io/github/issues/codedoneright-eu/Argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/codedoneright-eu/argatoria/issues?q=is%3Aissue+is%3Aopen)
+[![Open bugs](https://img.shields.io/github/issues/codedoneright-eu/Argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/codedoneright-eu/argatoria/issues)
 [![Contributors](https://img.shields.io/github/contributors/codedoneright-eu/argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/graphs/contributors)
 [![Commit activity the past year](https://img.shields.io/github/commit-activity/y/codedoneright-eu/argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/pulse/monthly)
 
