@@ -56,7 +56,7 @@ __Znalazłem błąd / mam pomysł co zrobić lepiej__
 
 ## Informacje dodatkowe ##
 
-Ten projekt nie jest wspierany przez Spellcrow Ltd. i jest w 100% fanowski i hobbystyczny.
+Ten projekt *nie jest* wspierany przez Spellcrow Ltd. i *jest w 100% fanowski* i hobbystyczny.
 
 Projekt ma na celu ułatwienie tworzenia rozpiski oraz wciąganie nowych graczy.
 
