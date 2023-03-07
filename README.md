@@ -1,34 +1,64 @@
-Argatoria
+Argatoria Wargame 
 ==================
 
-[![Latest release](https://img.shields.io/github/release/BSData/Argatoria.svg?style=flat-square)](https://github.com/BSData/Argatoria/releases/latest)
-[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/Argatoria/latest.svg?style=flat-square)](https://github.com/BSData/Argatoria/releases)
-[![Open bugs](https://img.shields.io/github/issues/BSData/Argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/Argatoria/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Contributors](https://img.shields.io/github/contributors/BSData/Argatoria.svg?style=flat-square)](https://github.com/BSData/Argatoria/graphs/contributors)
-[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/Argatoria.svg?style=flat-square)](https://github.com/BSData/Argatoria/pulse/monthly)
+[![Latest release](https://img.shields.io/github/release/BSData/Argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/releases/latest)
+[![Commits (since latest release)](https://img.shields.io/github/commits-since/BSData/Argatoria/latest.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/releases)
+[![Open bugs](https://img.shields.io/github/issues/BSData/Argatoria/bug.svg?style=flat-square&label=bugs)](https://github.com/codedoneright-eu/argatoria/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+[![Contributors](https://img.shields.io/github/contributors/codedoneright-eu/argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/graphs/contributors)
+[![Commit activity the past year](https://img.shields.io/github/commit-activity/y/codedoneright-eu/argatoria.svg?style=flat-square)](https://github.com/codedoneright-eu/argatoria/pulse/monthly)
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://www.bsdata.net/discord)
+## CzytajTo ##
 
-## Overview ##
+__Co to jest?__
 
-__What's this?__
+Pliki do gry bitewnej Argatoria, pozwalające tworzyć rozpiskę armijną w programie BattleScribe.
 
-BSData organisation created this project. It's a GitHub repository of datafiles.
-Maintained by community, in no way endorsed by BattleScribe or any other company/publisher. If you want
-to develop - cool! We need you! Take a look at [our homepage][BSData.net]
+__Nie interesuje mnie projekt, chcę tylko pliki do BattleScribe'a__
 
-__Okay, nice project. Is it actually working?__ _I just want those files..._
+Żaden problem, wystarczy:
+* Otwórz BattleScribe'a
+* Wejdź do menu 'Manage Data'
+* Zignoruj pytanie o dodatkowe repozytoria (zawsze możesz sobie dodać inne jak chcesz)
+* Kliknij 'IMPORT DATA'
+* Wybierz 'Import Data From URL'
+* Wklej tę ścieżkę - https://github.com/codedoneright-eu/argatoria/releases/latest/download/argatoria.latest.bsi
+* Potwierdź klikając 'OK', na liście powinien się pojawić link do tego repozytorium GitHub'a
 
-Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][]
+* Żeby zaktualizować dane jak pojawi się nowa wersja wystarczy, że klikniesz'UPDATE DATA' w menu 'Manage Data'
 
-__I found a bug!__ / *I have another request*
+* Już możesz robić rozpiski
 
-Great, thank you! Please [Report a bug][bug report] - you can also suggest enhancements and raise other issues there.
+__Na telefonie też działa?__
+* Tak, otwórz apkę i wejdź do 'Manage Data'
+* Kliknij w trzy kropki w prawym górnym rogu ekrany i wybierz "Add data index url"
+* Wklej tę ścieżkę - https://github.com/codedoneright-eu/argatoria/releases/latest/download/argatoria.latest.bsi
 
-## Links ##
+* Generalnie działa dokładnie tak samo jak na komputerze, tylko w innym miejscu podajesz ścieżkę (taka sama dla PC i telefonu)
 
-* [BSData organization homepage][BSData.net]
-* [BattleScribe app homepage](https://www.battlescribe.net/)
+__Znalazłem błąd / mam pomysł co zrobić lepiej__
+
+* Napisz maila na adres podany w ReadMe – przy tworzeniu nowej rozpiski, po prawej stronie
+* Ewentualnie otwórz problem na stronie projektu na GitHubie
+
+## Linki ##
+
+[Spellcrow]: https://www.spellcrow.com/
+[Umbra Turris Chronicles]: https://utchronicles.com/
+[Argatoria: Plemiona na FB]: https://www.facebook.com/groups/argatoriaplemiona
+[BattleScribe]: https://battlescribe.net/
 
 [BSData.net]: https://www.bsdata.net/
-[bug report]: https://github.com/BSData/Argatoria/issues/new/choose
+
+## Informacje dodatkowe ##
+
+Ten projekt nie jest wspierany przez Spellcrow Ltd. i jest w 100% fanowski i hobbystyczny.
+
+Projekt ma na celu ułatwienie tworzenia rozpiski oraz wciąganie nowych graczy.
+
+Jako, że nie ma zapotrzebowania na wersję EN, obecnie dostępna jest tylko polska wersja plików.
+
+Jeżeli chcesz pomóc w tworzeniu plików, daj znać.
+
+Wspieraj Twórców poprzez kupowanie figurek i podręczników przez ich stronę.
+
+© 2021 Spellcrow Ltd., Wszystkie prawa zastrzeżone. Argatoria, Umbra Turris oraz nazwy własne bohaterów oraz krain są własnością Spellcrow Ltd.
