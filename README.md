@@ -15,7 +15,7 @@ Pliki do gry bitewnej Argatoria, pozwalające tworzyć rozpiskę armijną w prog
 
 __Nie interesuje mnie projekt, chcę tylko pliki do BattleScribe'a__
 
-Żaden problem, wystarczy:
+Żaden problem:
 * Otwórz BattleScribe'a
 * Wejdź do menu 'Manage Data'
 * Zignoruj pytanie o dodatkowe repozytoria (zawsze możesz sobie dodać inne jak chcesz)
@@ -24,7 +24,7 @@ __Nie interesuje mnie projekt, chcę tylko pliki do BattleScribe'a__
 * Wklej tę ścieżkę - https://github.com/codedoneright-eu/argatoria/releases/latest/download/argatoria.latest.bsi
 * Potwierdź klikając 'OK', na liście powinien się pojawić link do tego repozytorium GitHub'a
 
-* Żeby zaktualizować dane jak pojawi się nowa wersja wystarczy, że klikniesz'UPDATE DATA' w menu 'Manage Data'
+* Żeby zaktualizować dane jak pojawi się nowa wersja wystarczy, że klikniesz 'UPDATE DATA' w menu 'Manage Data'
 
 * Już możesz robić rozpiski
 
@@ -34,12 +34,12 @@ __Na telefonie też działa?__
 * Kliknij w trzy kropki w prawym górnym rogu ekrany i wybierz "Add data index url"
 * Wklej tę ścieżkę - https://github.com/codedoneright-eu/argatoria/releases/latest/download/argatoria.latest.bsi
 
-* Generalnie działa dokładnie tak samo jak na komputerze, tylko w innym miejscu podajesz ścieżkę (taka sama dla PC i telefonu)
+* Generalnie działa dokładnie tak samo jak na komputerze, tylko podajesz ścieżkę w innym miejscu (taka sama dla PC i telefonu)
 
 
 __Znalazłem błąd / mam pomysł co zrobić lepiej__
 
-* Napisz maila na adres podany w ReadMe – przy tworzeniu nowej rozpiski, po prawej stronie
+* Napisz maila na adres podany w ReadMe – przy tworzeniu nowej rozpiski, okno po prawej stronie
 * Ewentualnie otwórz problem na stronie projektu na GitHubie
 
 ## Linki ##
@@ -48,13 +48,11 @@ __Znalazłem błąd / mam pomysł co zrobić lepiej__
 * [Umbra Turris Chronicles][Umbra Turris Chronicles]
 * [Argatoria: Plemiona na FB][Argatoria: Plemiona na FB]
 * [BattleScribe][BattleScribe]
-* [BSData.net][BSData.net]
 
 [Spellcrow]: https://www.spellcrow.com/
 [Umbra Turris Chronicles]: https://utchronicles.com/
 [Argatoria: Plemiona na FB]: https://www.facebook.com/groups/argatoriaplemiona
 [BattleScribe]: https://battlescribe.net/
-[BSData.net]: https://www.bsdata.net/
 
 ## Informacje dodatkowe ##
 
