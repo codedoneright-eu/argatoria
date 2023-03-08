@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="5" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="6" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="42fc-7ea3-31ea-a52a" name="Dirandis" revision="6" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -275,7 +275,7 @@
           <profiles>
             <profile id="bcb4-fdab-f06c-708c" name="Wilhary" hidden="false" typeId="218f-0655-0268-95ef" typeName="Profile">
               <characteristics>
-                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">5</characteristic>
+                <characteristic name="LD" typeId="93fa-4500-7c4e-a44c">6</characteristic>
                 <characteristic name="M" typeId="a9c9-ec0c-65ad-1dc0">15</characteristic>
                 <characteristic name="WS" typeId="d333-1828-755a-c589">2</characteristic>
                 <characteristic name="S" typeId="f957-7f6c-4fcc-ef66">3</characteristic>
@@ -483,20 +483,6 @@
         <categoryLink id="9d99-9dc2-25ed-18df" name="Bohater" hidden="false" targetId="982d-e25e-9a7a-d639" primary="false"/>
         <categoryLink id="b11e-e6bc-2220-ad30" name="Mag" hidden="false" targetId="807c-d1a0-dd7a-19d6" primary="true"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="1ff6-e578-50d6-b252" name="Magia" hidden="true" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="f85b-9abe-e3c6-3699" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4b-0419-b90c-4373" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c14a-68c6-3a5e-5a9f" name="Czary" hidden="false" collective="false" import="true" targetId="fdbd-83ec-d66f-7adc" type="selectionEntryGroup"/>
-            <entryLink id="df6a-1cb2-e5f9-4790" name="Przedmioty Magiczne" hidden="false" collective="false" import="true" targetId="4f06-7714-909f-44c4" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <entryLinks>
         <entryLink id="eeb4-d591-5812-1857" name="Czary (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="dc2f-dde6-bafe-9059" type="selectionEntryGroup"/>
         <entryLink id="a33f-8a92-9cdc-3aa8" name="Przedmioty Magiczne (mag do 6 pkt)" hidden="false" collective="false" import="true" targetId="ff7a-f326-5a4e-c3cb" type="selectionEntryGroup"/>
