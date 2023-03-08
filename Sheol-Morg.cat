@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="8" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="52a7-61d2-c8e9-2f28" name="Sheol-Morg" revision="9" battleScribeVersion="2.03" authorName="Skraaj" authorContact="skraaj@codedoneright.eu" library="false" gameSystemId="bed4-986d-3f21-8152" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <readme>Ostatnia aktualizacja: Purple Warlock nr 2 - Luty 2023
 
 ©2023 Spellcrow Ltd. Wszystkie ilustracje, obrazki, logotypy, nazwy oraz miejsca z Argatorii oraz Uniwersum Umbra Turris są własnością Spellcrow Ltd. Wszystkie prawa zastrzeżone.</readme>
@@ -466,7 +466,14 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
             <rule id="037d-ec23-27ba-8a1d" name="Beeeeeee!!!" hidden="false">
               <description>Podczas modlitw cecha LD oddziału wynosi 9</description>
             </rule>
-            <rule id="e946-e668-a416-3290" name="Fanatyczna lojalność" hidden="false">
+            <rule id="d057-90d3-0ba1-e5cf" name="Fanatyczna lojalność" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>Kozary w armii Lorda Sheol-Morg mogą poświęcić jedną podstawkę podczas nieudanego rozkazu, by wykonać przerzut wyniku</description>
             </rule>
           </rules>
@@ -516,7 +523,14 @@ Ponadto, jeśli wróg ma stracone 5 Punktów Krwi lub więcej, raz na cykl może
             <rule id="4350-f0e1-3a5a-8989" name="Beeeeeee!!!" hidden="false">
               <description>Podczas modlitw cecha LD oddziału wynosi 9</description>
             </rule>
-            <rule id="a7e0-e74b-93c9-c154" name="Fanatyczna lojalność" hidden="false">
+            <rule id="a7e0-e74b-93c9-c154" name="Fanatyczna lojalność" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8f92-1758-274e-a689" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>Kozary w armii Lorda Sheol-Morg mogą poświęcić jedną podstawkę podczas nieudanego rozkazu, by wykonać przerzut wyniku</description>
             </rule>
           </rules>
@@ -669,14 +683,21 @@ Do oddziału Truhlaków może dołączać tylko Lord Nekromanta</description>
             </profile>
           </profiles>
           <rules>
-            <rule id="6549-eac7-2827-bcd8" name="Nieustępliwość" hidden="false">
+            <rule id="6549-eac7-2827-bcd8" name="Nieustępliwość" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>Tylko w armii w armii Lorda Otchłani
 Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="d3cd-0c0e-f990-d22a" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
-            <infoLink id="3fb2-293d-53a4-fecb" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
+            <infoLink id="3fb2-293d-53a4-fecb" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
@@ -723,14 +744,21 @@ Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</des
             </profile>
           </profiles>
           <rules>
-            <rule id="c004-f978-c11d-9292" name="Nieustępliwość" hidden="false">
+            <rule id="3cec-8da1-b7be-33e8" name="Nieustępliwość" hidden="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8299-ebaa-0826-084d" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
               <description>Tylko w armii w armii Lorda Otchłani
 Po nieudanej szarży oddział nie może zostać obrócony przez przeciwnika</description>
             </rule>
           </rules>
           <infoLinks>
             <infoLink id="6648-b44d-8186-7f4f" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
-            <infoLink id="4fb8-2c21-084f-e6b3" name="Straszliwe Obrażenia" hidden="false" targetId="05b0-8373-2d27-5168" type="rule"/>
+            <infoLink id="4fb8-2c21-084f-e6b3" name="Ciężki Pancerz" hidden="false" targetId="afaa-9834-193d-24c6" type="rule"/>
           </infoLinks>
           <costs>
             <cost name="Punkty" typeId="f85b-9abe-e3c6-3699" value="15.0"/>
